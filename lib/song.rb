@@ -18,18 +18,6 @@ class Song
     @@genres << @genre
   end
 
-  def name
-    @name
-  end
-
-  def artist
-    @artist
-  end
-
-  def genre
-    @genre
-  end
-
   def self.count # class method returns the number of songs created
     @@count
   end
